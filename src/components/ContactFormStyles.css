@@ -1,0 +1,40 @@
+.contact-container {
+  margin: 4rem 6rem;
+  color: #2a2a2a;
+}
+.contact-container form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+
+.contact-container textarea {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+
+.contact-container button {
+  display: inline;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-container {
+    margin: 4rem 2rem;
+  }
+  .contact-container form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+}
